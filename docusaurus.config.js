@@ -61,7 +61,7 @@ const config = {
         title: 'Mobile Lösungswerkstatt - MoLöWe',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/leuphanaLogo.svg',
         },
         items: [
           {
