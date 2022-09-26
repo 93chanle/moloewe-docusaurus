@@ -46,6 +46,11 @@ export default function Home() {
       <HomepageHeader />
 
       <main>
+        <img
+          class="landingPhoto"
+          src="/img/landing-photo.png"
+          alt="Grapefruit slice atop a pile of other slices"
+        ></img>
         <HomepageFeatures />
       </main>
     </Layout>
