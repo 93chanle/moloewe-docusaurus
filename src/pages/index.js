@@ -52,6 +52,11 @@ export default function Home() {
           alt="Grapefruit slice atop a pile of other slices"
         ></img>
         <HomepageFeatures />
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="gallery">
+            To Frequently asked Questions
+          </Link>
+        </div>
       </main>
     </Layout>
   );
