@@ -47,8 +47,8 @@ export default function Home() {
 
       <main>
         <img
-          class="landingPhoto"
-          src="/img/landing-photo.png"
+          className="landingPhoto"
+          src="img/landingPhoto2.jpg"
           alt="Grapefruit slice atop a pile of other slices"
         ></img>
         <HomepageFeatures />
