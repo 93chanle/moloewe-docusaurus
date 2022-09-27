@@ -37,14 +37,8 @@ export default function Home() {
           alt="Grapefruit slice atop a pile of other slices"
         ></img>
         <div className={clsx('container', styles.FAQContainer)}>
-          <h2>{'Is the Mobile Mobile Workshop for rent?'}</h2>
-          <p>
-            {
-              'Currently the Mobile Solution Workshop is not a service provided from Leuphana in this sense, instead it is an infrastructure that is used in the context of research projects and teaching. Therefore, events in the Mobile Solution Workshop are part of research projects or project seminars. As a partner in a research project, your are involved in the design of the workshop from the start.'
-            }
-          </p>
+          <PrintFAQ />
         </div>
-        <PrintFAQ />
       </main>
     </Layout>
   );
