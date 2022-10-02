@@ -54,7 +54,7 @@ export default function Home() {
         <HomepageFeatures />
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="faq">
-            To Frequently asked Questions
+            To Frequently Asked Questions
           </Link>
         </div>
       </main>

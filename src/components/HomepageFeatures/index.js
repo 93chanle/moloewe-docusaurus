@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Information',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/leuphana_logo_granit.svg').default,
     description: (
       <>
         Scientists break down and visualise complex problems across five 65’’
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Consultation',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/leuphana_logo_haematit.svg').default,
     description: (
       <>
         In the Mobile Solution Workshop, scientists can put their models to the
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Collaboration',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/leuphana_logo_pyrit.svg').default,
     description: (
       <>
         Participants can experience and design interactive scenarios to jointly
@@ -36,7 +36,7 @@ const FeatureList = [
   },
   {
     title: 'Empowerment',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/leuphana_logo_tigerauge.svg').default,
     description: (
       <>Implementation strategies are developed jointly and visualised.</>
     ),

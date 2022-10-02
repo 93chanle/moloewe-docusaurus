@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: ' MoLöWe - Mobile Lösungswerkstatt',
+  title: ' MoLöwe - Mobile Lösungswerkstatt',
   tagline: 'Faculty of Sustainability - Leuphana University',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Mobile Lösungswerkstatt - MoLöWe',
+        title: 'Mobile Lösungswerkstatt - MoLöwe',
         logo: {
           alt: 'My Site Logo',
           src: 'img/leuphanaLogo.svg',
@@ -71,18 +71,20 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-
           {
-            to: 'docs/welcome-moloewe',
-            label: 'About Us',
+            to: 'faq',
+            label: 'FAQ',
             position: 'left',
           },
-
-          { to: '/blog', label: 'Blog', position: 'left' }, // Go to blog site
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: 'gallery',
+            label: 'Gallery',
+            position: 'left',
+          },
+          {
+            to: 'contact',
+            label: 'Contact',
+            position: 'left',
           },
         ],
       },
@@ -90,46 +92,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'FAQ',
+                to: 'faq',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Gallery',
+                to: 'gallery',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contact',
+                to: 'contact',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Mobile Solution Workshop.`,
       },
       prism: {
         theme: lightCodeTheme,
