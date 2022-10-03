@@ -37,9 +37,10 @@ export default function Home() {
         ></img>
 
         <div className={clsx('contactContent', styles.contactBanner)}>
-          <p>{'Contacts'}</p>
-          
-
+          <h2>{'Leuphana University Lüneburg'}</h2>
+          <h3>{'Faculty of Sustainability'}</h3>
+          <p>{'Universitätsallee 1, 21335 Lüneburg, Germany'}</p>
+          <p>{'moloewe@leuphana.de'}</p>
         </div>
       </main>
     </Layout>
