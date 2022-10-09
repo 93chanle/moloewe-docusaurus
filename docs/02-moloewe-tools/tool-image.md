@@ -1,4 +1,4 @@
 ---
-sidebar_label: 'Navigation'
+sidebar_label: 'Tool Image'
 sidebar_position: 2
 ---

@@ -1,4 +1,4 @@
 ---
 sidebar_label: 'Tool Dropdown'
-sidebar_position: 3
+sidebar_position: 10
 ---
